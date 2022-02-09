@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form>
+            <h2>Calcule o seu <span>IMC</span></h2>
+            <p><label for="altura">Altura</label></p>
+            <input type="number" placeholder="Ex: 1,74" id="altura" class="altura-peso">
+            <p><label for="peso">Peso</label></p>
+            <input type="number" placeholder="Ex: 62,1" id="peso" class="altura-peso">
+            <input type="submit" value="Calcular" id="calcular">
+            <h3 id="resultado"></h3>
+        </form>
+       <div class="table-obesidade">
+           <h2>Grau de Obesidade</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Classificação</td>
+                    <td>IMC</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="abaixoPeso">
+                    <td>Abaixo do Peso</td>
+                    <td>Abaixo 18,5</td>
+                </tr>
+                <tr id="pesoNormal">
+                    <td>Peso Normal</td>
+                    <td>18,5 - 24,9</td>
+                </tr>
+                <tr id="sobrePeso">
+                    <td>Sobrepeso</td>
+                    <td>25 - 29,9</td>
+                </tr>
+                <tr id="obesidadeI">
+                    <td>Obesidade Grau I</td>
+                    <td>30 - 34,9</td>
+                </tr>
+                <tr id="obesidadeII">
+                    <td>Obesidade Grau II</td>
+                    <td>35 - 39,9</td>
+                </tr>
+                <tr id="obesidadeIII">
+                    <td>Obesidade Grau III ou Mórbida</td>
+                    <td>Maior ou Igual 40</td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
