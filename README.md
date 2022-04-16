@@ -1,4 +1,4 @@
-## Finanças
+## Calculadora IMC
 
 ### Sobre
 
