@@ -15,7 +15,7 @@ Esse projeto é uma calculadora de IMC(Índice de Massa Corporal).
 ### Funcionalidades
 
 * Você terá que digitar sua altura e seu peso;
-* Usando a formúla pra calcular o IMC, irá ser calculado a sua altura e seu peso e assim mostrará seu IMC;
+* Usando a formúla pra calcular o IMC, irá ser calculado a sua altura e seu peso e assim mostrará seu IMC.
 
 ##
 
